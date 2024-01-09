@@ -10,45 +10,49 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&display=swap');
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
     body {
-      background-color: #ffcc00b5;
-      
+      background-color: hsl(47, 88%, 63%);
+      font-family: Figtree, sans-serif;
+      font-size: 16px;
     }
     .card {
       width: 30%;
       margin: 100px auto;
       padding: 20px;
-      border: 1px solid #000000;
+      border: 1px solid hsl(0, 0%, 7%);
       border-radius: 20px;
       display: flex;
       flex-direction: column;
       gap: 20px;
-      box-shadow: 15px 15px #000000;
-      background-color: #ffffff;
+      box-shadow: 15px 15px hsl(0, 0%, 7%);
+      background-color: hsl(0, 0%, 100%);
     }
     .card > img {
       border-radius: 10px;
     }
     .card span {
       display: inline-block;
-      width: 100px;
+      width: 90px;
       padding: 5px 10px;
       border-radius: 8px;
-      background-color: #ffcc00b5;
-      font-weight: bold;
-      font-size: 20px;
+      background-color: hsl(47, 88%, 63%);
+      font-weight: 800;
+    }
+    .card h2 {
+      font-weight: 800;
     }
     .card h2:hover {
       cursor: pointer;
-      color: #ffcc00ba;
+      color: hsl(47, 88%, 63%);
     }
     .card > p {
-      color: #3f3c3ca4;
+      color: hsl(0, 0%, 50%);
     }
     .user {
       display: flex;
@@ -57,9 +61,8 @@
       gap: 20px;
     }
     .user > p {
-      color: #000000;
-      font-weight: bold;
-      font-size: 15px;
+      color: hsl(0, 0%, 7%);
+      font-weight: 800;
     }
     .user > img {
       width: 40px;
