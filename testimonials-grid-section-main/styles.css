@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    margin: 50px;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: var(--Light-gray);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+main .section {
+    border-radius: 10px;
+    padding: 20px;
+}
+.section .profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.section .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.section .profile .profile-content {
+    font-weight: 500;
+}
+.section .profile .profile-content p{
+    opacity: 50%;
+    margin-top: 2px;
+}
+.section .content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section .content .p1 {
+    font-weight: 600;
+}
+.section .content .p2 {
+    opacity: 70%;
+}
+main .daniel {
+    background-color: var(--Moderate-violet);
+    color: var(--White);
+    grid-column: 1/3;
+}
+main .daniel img {
+    border: 2px solid var(--Light-gray);
+}
+main .jonathan {
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+    grid-column: 3/4;
+}
+main .jeanette {
+    background-color: var(--White);
+    grid-column: 1/2;
+}
+main .patrick {
+    background-color: var(--Very-dark-blackish-blue);
+    color: var(--White);
+    grid-column: 2/4;
+}
+main .patrick img {
+    border: 2px solid var(--Moderate-violet);
+}
+main .kira {
+    background-color: var(--White);
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0;
+    }
+    main {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;  
+        margin: 0;   
+        padding: 20px;
+    }
+    main .daniel {
+        grid-row: 1/3;
+        grid-column: 1/2; 
+        width: 100%; 
+    }
+    main .jonathan {
+        grid-row: 3/4;
+        grid-column: 1/2; 
+        width: 100%;  
+    }
+    main .jeanette {
+        grid-row: 4/5;
+        grid-column: 1/2; 
+        width: 100%;   
+    }
+    main .patrick {
+        grid-row: 5/7;
+        grid-column: 1/2; 
+        width: 100%;   
+    }
+    main .kira {
+        grid-row: 7/9;
+        grid-column: 1/2; 
+        width: 100%;  
+    }
+}
