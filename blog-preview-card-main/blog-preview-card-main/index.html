@@ -10,21 +10,81 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .card {
-      wi
-      text-align: center;
-      border: 1px solid black;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color: #ffcc00b5;
+      
+    }
+    .card {
+      width: 30%;
+      margin: 100px auto;
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 15px 15px #000000;
+      background-color: #ffffff;
+    }
+    .card > img {
+      border-radius: 10px;
+    }
+    .card span {
+      display: inline-block;
+      width: 100px;
+      padding: 5px 10px;
+      border-radius: 8px;
+      background-color: #ffcc00b5;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .card h2:hover {
+      cursor: pointer;
+      color: #ffcc00ba;
+    }
+    .card > p {
+      color: #3f3c3ca4;
+    }
+    .user {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+    }
+    .user > p {
+      color: #000000;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .user > img {
+      width: 40px;
+      height: 40px;
+    }
+    @media screen and (max-width:650px) {
+      .card {
+        width: 80%;
+      }
+    }
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: rgb(0, 0, 0); }
   </style>
 </head>
 <body>
 <section class="card">
-  <div class="img">
-    <img src="./assets/images/illustration-article.svg" alt="">
+  <img src="./assets/images/illustration-article.svg" alt="">
+  <span>Learning</span>
+  <h3>Published 21 Dec 2023</h3>
+  <h2>HTML & CSS foundations</h2>
+  <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  <div class="user">
+    <img src="./assets/images/image-avatar.webp" alt="">
+    <p>Greg Hooper</p>
   </div>
-
 </section>
   
   
