@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/testimonials-grid-section-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)

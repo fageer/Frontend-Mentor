@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/blog-preview-card-main/blog-preview-card-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - Blog preview card
 
 ![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
