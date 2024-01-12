@@ -1,4 +1,4 @@
-<a href="https://fageer.github.io/Frontend-Mentor/huddle-landing-page-with-alternating-feature-blocks-master/" target="_blank" style ="text-align: center;"><strong>➥ Live Demo</strong></a>
+<a href="https://fageer.github.io/Frontend-Mentor/huddle-landing-page-with-alternating-feature-blocks-master/" target="_blank" style="text-align: center;"><strong>➥ Live Demo</strong></a>
 
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
