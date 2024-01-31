@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+:root {
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,19 +52,19 @@ header img {
   font-size: 3.2rem;
   text-align: center;
   letter-spacing: 0.5rem;
-  color: hsl(0, 36%, 70%);
+  color: var(--Desaturated-Red);
   text-transform: uppercase;
   line-height: 3.3rem;
   font-weight: 200;
 }
 .container .left h1 span {
-  color: hsl(0, 6%, 24%);
+  color: var(--Dark-Grayish-Red);
   font-weight: 700;
 }
 .container .left p {
   max-width: 450px;
   text-align: center;
-  color: hsl(0, 36%, 70%);
+  color: var(--Desaturated-Red);
   font-size: 0.9rem;
   line-height: 1.5rem;
   margin: 20px auto 40px auto;
@@ -76,7 +81,7 @@ header img {
   position: absolute;
   width: 100%;
   outline: none;
-  border: 1px solid hsl(0, 36%, 70%);
+  border: 1px solid var(--Desaturated-Red);
   height: 100%;
   border-radius: 50px;
   padding-left: 30px;
@@ -98,7 +103,7 @@ header img {
   transition: 0.3s ease box-shadow;
 }
 .container form input::placeholder {
-  color: hsl(0, 36%, 70%);
+  color: var(--Desaturated-Red);
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
   opacity: 0.8;
@@ -129,7 +134,7 @@ header img {
   display: block;
 }
 .container form.error input {
-  border: 2px solid hsl(0, 93%, 68%);
+  border: 2px solid var(--Soft-Red);
 }
 .attribution {
   font-size: 16px;
