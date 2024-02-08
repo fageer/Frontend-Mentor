@@ -35,8 +35,9 @@ header nav {
   align-items: center;
   gap: 50px;
 }
-header nav #menu {
-    display: none;
+#menu {
+  display: none;
+  cursor: pointer;
 }
 header nav a:hover {
   color: var(--Soft-red);
@@ -179,5 +180,90 @@ main {
 }
 /* end cards */
 
-
 /* end main */
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 150px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100vh;
+  gap: 20px;
+  z-index: 99999;
+  position: fixed;
+  background-color: var(--Off-white);
+  color: var(--Very-dark-blue);
+}
+#close {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+/* responsive */
+
+@media screen and (max-width: 650px) {
+  .container {
+    margin: 20px 10px;
+  }
+  header {
+    margin-bottom: 20px;
+  }
+  header nav {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+
+  /* main */
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+  }
+  #left {
+    grid-column: 1/1;
+    grid-row: 1/5;
+  }
+  #right {
+    grid-column: 1/1;
+    grid-row: 5/8;
+  }
+  #card1 {
+    grid-column: 1/1;
+    grid-row: 8/9;
+  }
+  #card2 {
+    grid-column: 1/1;
+    grid-row: 9/10;
+  }
+  #card3 {
+    grid-column: 1/1;
+    grid-row: 10/11;
+  }
+  /* end main */
+
+  /* left side */
+  .img {
+    background-image: url(./assets/images/image-web-3-mobile.jpg);
+  }
+  .left .content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .left .content div h1 {
+    padding-right: 0px;
+  }
+  .left .content div p {
+    margin-bottom: 20px;
+  }
+  /* end left side */
+}
+/* end responsive */
