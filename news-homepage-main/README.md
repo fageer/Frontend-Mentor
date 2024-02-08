@@ -1,4 +1,4 @@
-<a href="https://fageer.github.io/Frontend-Mentor/news-homepage-main/"><strong>➥ Live Demo</strong></a>
+<a href="https://fageer.github.io/Frontend-Mentor/news-homepage-main/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 # Frontend Mentor - News homepage
 
