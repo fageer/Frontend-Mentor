@@ -136,6 +136,10 @@ main {
   color: var(--Off-white);
   margin-bottom: 10px;
 }
+.right h3:hover {
+  cursor: pointer;
+  color: var(--Soft-orange);
+}
 .right p {
   color: var(--Grayish-blue);
   line-height: 1.7;
