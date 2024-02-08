@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/news-homepage-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
