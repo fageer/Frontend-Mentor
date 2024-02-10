@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/loopstudios-landing-page-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - Loopstudios landing page
 
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
