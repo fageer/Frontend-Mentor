@@ -135,10 +135,10 @@ header #hero h1 {
   font-size: 18px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 30px;
+  /* grid-template-rows: repeat(5, 1fr); */
+  gap: 20px;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 .bottom .heading {
   display: flex;
@@ -189,64 +189,64 @@ header #hero h1 {
 }
 #heading {
   grid-column: 1/3;
-  grid-row: 1/2;
+  /* grid-row: 1/2; */
 }
 #btn {
   grid-column: 3/5;
-  grid-row: 1/2;
+  /* grid-row: 1/2; */
 }
 #card1 {
   grid-column: 1/2;
-  grid-row: 2/4;
+  /* grid-row: 2/4; */
   background-image: url(./images/desktop/image-deep-earth.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card2 {
   grid-column: 2/3;
-  grid-row: 2/4;
+  /* grid-row: 2/4; */
   background-image: url(./images/desktop/image-night-arcade.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card3 {
   grid-column: 3/4;
-  grid-row: 2/4;
+  /* grid-row: 2/4; */
   background-image: url(./images/desktop/image-soccer-team.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card4 {
   grid-column: 4/5;
-  grid-row: 2/4;
+  /* grid-row: 2/4; */
   background-image: url(./images/desktop/image-grid.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card5 {
   grid-column: 1/2;
-  grid-row: 4/6;
+  /* grid-row: 4/6; */
   background-image: url(./images/desktop/image-from-above.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card6 {
   grid-column: 2/3;
-  grid-row: 4/6;
+  /* grid-row: 4/6; */
   background-image: url(./images/desktop/image-pocket-borealis.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card7 {
   grid-column: 3/4;
-  grid-row: 4/6;
+  /* grid-row: 4/6; */
   background-image: url(./images/desktop/image-curiosity.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #card8 {
   grid-column: 4/5;
-  grid-row: 4/6;
+  /* grid-row: 4/6; */
   background-image: url(./images/desktop/image-fisheye.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -359,11 +359,8 @@ footer .foot .right-foot p {
   /* bottom */
   .bottom {
     width: 100%;
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    gap: 30px;
-    margin-bottom: 0px;
+    /* grid-template-rows: repeat(10, 1fr); */
   }
   .bottom .heading {
     justify-content: center;
@@ -385,46 +382,46 @@ footer .foot .right-foot p {
   }
   #heading {
     grid-column: 1/2;
-    grid-row: 1/2;
+    /* grid-row: 1/2; */
   }
   #card1 {
     grid-column: 1/2;
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
     background-image: url(./images/mobile/image-deep-earth.jpg);
   }
   #card2 {
     grid-column: 1/2;
-    grid-row: 3/4;
+    /* grid-row: 3/4; */
     background-image: url(./images/mobile/image-night-arcade.jpg);
   }
   #card3 {
     grid-column: 1/2;
-    grid-row: 4/5;
+    /* grid-row: 4/5; */
     background-image: url(./images/mobile/image-soccer-team.jpg);
   }
   #card4 {
     grid-column: 1/2;
-    grid-row: 5/6;
+    /* grid-row: 5/6; */
     background-image: url(./images/mobile/image-grid.jpg);
   }
   #card5 {
     grid-column: 1/2;
-    grid-row: 6/7;
+    /* grid-row: 6/7; */
     background-image: url(./images/mobile/image-from-above.jpg);
   }
   #card6 {
     grid-column: 1/2;
-    grid-row: 7/8;
+    /* grid-row: 7/8; */
     background-image: url(./images/mobile/image-pocket-borealis.jpg);
   }
   #card7 {
     grid-column: 1/2;
-    grid-row: 8/9;
+    /* grid-row: 8/9; */
     background-image: url(./images/mobile/image-curiosity.jpg);
   }
   #card8 {
     grid-column: 1/2;
-    grid-row: 9/10;
+    /* grid-row: 9/10; */
     background-image: url(./images/mobile/image-fisheye.jpg);
   }
   #btn {
