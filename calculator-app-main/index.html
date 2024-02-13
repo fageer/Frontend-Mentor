@@ -1,27 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
-  
   <title>Frontend Mentor | Calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div class="container">
 
+    <div class="calculator">
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="calculator-header">
+
+        <div class="calculator-title">
+          <h1>Calculator</h1>
+        </div>
+
+        <div class="themes">
+
+          <p>THEME</p>
+          <div class="theme">
+            <p id="one">1</p>
+            <p id="two">2</p>
+            <p id="three">3</p>
+          </div>
+
+          <div class="theme-div">
+            <span id="theme"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="calculator-input">
+        <form name="calc">
+          <input id="screen" name="text" readonly type="text" placeholder="Enter a Number ..." value="399,981">
+        </form>
+      </div>
+
+      <div class="calculator-buttons">
+        <button id="num7" class="num" onclick="document.calc.text.value+='7'">7</button>
+        <button id="num8" class="num" onclick="document.calc.text.value+='8'">8</button>
+        <button id="num9" class="num" onclick="document.calc.text.value+='9'">9</button>
+        <button id="del" class="del">DEL</button>
+        <button id="num4" class="num" onclick="document.calc.text.value+='4'">4</button>
+        <button id="num5" class="num" onclick="document.calc.text.value+='5'">5</button>
+        <button id="num6" class="num" onclick="document.calc.text.value+='6'">6</button>
+        <button id="sum" class="sum" onclick="document.calc.text.value+='+'">+</button>
+        <button id="num1" class="num" onclick="document.calc.text.value+='1'">1</button>
+        <button id="num2" class="num" onclick="document.calc.text.value+='2'">2</button>
+        <button id="num3" class="num" onclick="document.calc.text.value+='3'">3</button>
+        <button id="sub" class="sub" onclick="document.calc.text.value+='-'">-</button>
+        <button id="dot" class="." onclick="document.calc.text.value+='.'">.</button>
+        <button id="num0" class="num" onclick="document.calc.text.value+='0'">0</button>
+        <button id="devide" class="devide" onclick="document.calc.text.value+='/'">/</button>
+        <button id="multi" class="multi" onclick="document.calc.text.value+='*'">x</button>
+        <button id="reset" class="reset" onclick="document.calc.text.value=''">RESET</button>
+        <button id="equal" class="equal" onclick="document.calc.text.value=eval(calc.text.value)">=</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/fageer">Fager Mohsen</a>.
+    </div>
   </div>
+
+  <script src="app.js"></script>
 </body>
+
 </html>

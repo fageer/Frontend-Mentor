@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+:root {
+  /* Theme 1 */
+  /* Backgrounds */
+  --Very-dark-desaturated-blue-main-background: hsl(222, 26%, 31%);
+  --Very-dark-desaturated-blue-toggle-background-keypad-background: hsl(
+    223,
+    31%,
+    20%
+  );
+  --Very-dark-desaturated-blue-screen-background: hsl(224, 36%, 15%);
+  /* Keys */
+  --Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+  --Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+  --Red-key-background-toggle: hsl(6, 63%, 50%);
+  --Dark-red-key-shadow: hsl(6, 70%, 34%);
+  --Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+  --Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+  /* Text */
+  --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+  --White: hsl(0, 0%, 100%);
+  /* end Theme 1 */
+
+  /* Theme 2 */
+  /* Backgrounds */
+  --Light-gray-main-background: hsl(0, 0%, 90%);
+  --Grayish-red-toggle-background-keypad-background: hsl(0, 5%, 81%);
+  --Very-light-gray-screen-background: hsl(0, 0%, 93%);
+  /* Keys */
+  --Dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+  --Very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+  --Orange-key-background-toggle: hsl(25, 98%, 40%);
+  --Dark-orange-key-shadow: hsl(25, 99%, 27%);
+  --Light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+  --Dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+  /* Text */
+  --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+  --White: hsl(0, 0%, 100%);
+  /* end Theme 2 */
+
+  /* Theme 3 */
+  /* Backgrounds */
+  --Very-dark-violet-main-background: hsl(268, 75%, 9%);
+  --Very-dark-violet-toggle-background-keypad-background-screen-background: hsl(
+    268,
+    71%,
+    12%
+  );
+  /* Keys */
+  --Dark-violet-key-background: hsl(281, 89%, 26%);
+  --Vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+  --Pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+  --Soft-cyan-key-shadow: hsl(177, 92%, 70%);
+  --Very-dark-violet-key-background: hsl(268, 47%, 21%);
+  --Dark-magenta-key-shadow: hsl(290, 70%, 36%);
+  /* Text */
+  --Light-yellow: hsl(52, 100%, 62%);
+  --Very-dark-blue: hsl(198, 20%, 13%);
+  --White: hsl(0, 0%, 100%);
+  /* end Theme 3 */
+}
+
+/* active 2 */
+body.active2 {
+  background-color: var(--Light-gray-main-background);
+  color: var(--Very-dark-grayish-yellow);
+}
+body.active2 .calculator-buttons {
+  background-color: var(--Grayish-red-toggle-background-keypad-background);
+}
+body.active2 input {
+  background-color: var(--White);
+  color: var(--Very-dark-grayish-yellow);
+}
+body.active2 .theme-div {
+  background-color: var(--Grayish-red-toggle-background-keypad-background);
+}
+body.active2 button {
+  color: var(--Very-dark-grayish-yellow);
+}
+body.active2 span,
+body.active2 #equal {
+  background-color: var(--Dark-orange-key-shadow);
+}
+body.active2 #equal {
+  box-shadow: 0px 3px 0px 0px var(--Orange-key-background-toggle);
+}
+body.active2 span:hover,
+body.active2 #equal:hover {
+  background-color: var(--Orange-key-background-toggle);
+}
+body.active2 #equal:hover {
+  box-shadow: 0px 3px 0px 0px var(--Dark-orange-key-shadow);
+}
+body.active2 #reset,
+body.active2 #del {
+  background-color: var(--Very-dark-cyan-key-shadow);
+  box-shadow: 0px 3px 0px 0px var(--Dark-moderate-cyan-key-background);
+}
+body.active2 #reset:hover,
+body.active2 #del:hover {
+  background-color: var(--Dark-moderate-cyan-key-background);
+  box-shadow: 0px 3px 0px 0px var(--Very-dark-cyan-key-shadow);
+}
+/* end active 2 */
+
+/* active 3 */
+body.active3 {
+  background-color: var(--Very-dark-violet-main-background);
+  color: var(--Light-yellow);
+}
+body.active3 .calculator-buttons {
+  background-color: var(
+    --Very-dark-violet-toggle-background-keypad-background-screen-background
+  );
+}
+body.active3 input {
+  background-color: var(
+    --Very-dark-violet-toggle-background-keypad-background-screen-background
+  );
+  color: var(--Light-yellow);
+}
+body.active3 .theme-div {
+  background-color: var(
+    --Very-dark-violet-toggle-background-keypad-background-screen-background
+  );
+}
+body.active3 button {
+  background-color: var(--Very-dark-violet-key-background);
+  color: var(--Light-yellow);
+  box-shadow: 0px 3px 0px 0px var(--Dark-magenta-key-shadow);
+}
+body.active3 button:hover {
+  background-color: var(--Dark-magenta-key-shadow);
+  box-shadow: 0px 3px 0px 0px var(--Very-dark-violet-key-background);
+}
+body.active3 span,
+body.active3 #equal {
+  background-color: var(--Pure-cyan-key-background-toggle);
+}
+body.active3 #equal {
+  box-shadow: 0px 3px 0px 0px var(--Soft-cyan-key-shadow);
+  color: var(--Very-dark-blue);
+}
+body.active3 span:hover,
+body.active3 #equal:hover {
+  background-color: var(--Soft-cyan-key-shadow);
+}
+body.active3 #equal:hover {
+  box-shadow: 0px 3px 0px 0px var(--Pure-cyan-key-background-toggle);
+}
+body.active3 #reset,
+body.active3 #del {
+  background-color: var(--Dark-violet-key-background);
+  box-shadow: 0px 3px 0px 0px var(--Vivid-magenta-key-shadow);
+}
+body.active3 #reset:hover,
+body.active3 #del:hover {
+  background-color: var(--Vivid-magenta-key-shadow);
+  box-shadow: 0px 3px 0px 0px var(--Dark-violet-key-background);
+}
+/* end active 3 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: var(--Very-dark-desaturated-blue-main-background);
+  color: var(--White);
+  height: 100vh;
+}
+.container {
+  margin: 100px 20px;
+}
+.calculator {
+  width: 450px;
+  margin: 0 auto;
+}
+
+/* header */
+.calculator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.calculator-header .calculator-title h1 {
+  font-size: 20px;
+}
+.themes {
+  display: flex;
+  flex-direction: column;
+}
+.theme p {
+  cursor: pointer;
+}
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.theme-div {
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: var(
+    --Very-dark-desaturated-blue-toggle-background-keypad-background
+  );
+  width: 50px;
+  height: 15px;
+  border-radius: 20px;
+  padding: 2px;
+}
+.theme-div span {
+  display: inline-block;
+  background-color: var(--Dark-red-key-shadow);
+  width: 10px;
+  height: 100%;
+  border-radius: 100%;
+  /* margin-left: 30px; */
+}
+.theme-div span:hover {
+  background-color: var(--Red-key-background-toggle);
+}
+/* end header */
+
+/* calculator-input */
+.calculator-input input {
+  width: 100%;
+  height: 100px;
+  outline: none;
+  border: none;
+  background-color: var(--Very-dark-desaturated-blue-screen-background);
+  padding: 20px;
+  color: var(--White);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* end calculator-input */
+
+/* calculator-buttons */
+.calculator-buttons {
+  border-radius: 8px;
+  background-color: var(
+    --Very-dark-desaturated-blue-toggle-background-keypad-background
+  );
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 85px);
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.calculator-buttons button {
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: var(--Light-grayish-orange-key-background);
+  color: var(--Very-dark-grayish-blue);
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 0px 0px var(--Grayish-orange-key-shadow);
+}
+.calculator-buttons button:hover {
+  background-color: var(--White);
+}
+#reset {
+  background-color: var(--Desaturated-dark-blue-key-shadow);
+  color: var(--White);
+  grid-column: 1/3;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 0px 3px 0px 0px var(--Desaturated-dark-blue-key-shadow);
+}
+#equal {
+  background-color: var(--Dark-red-key-shadow);
+  color: var(--White);
+  grid-column: 3/5;
+  box-shadow: 0px 3px 0px 0px var(--Dark-red-key-shadow);
+}
+#equal:hover {
+  background-color: var(--Red-key-background-toggle);
+}
+#del {
+  background-color: var(--Desaturated-dark-blue-key-shadow);
+  color: var(--White);
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 0px 3px 0px 0px var(--Desaturated-dark-blue-key-shadow);
+}
+#reset:hover,
+#del:hover {
+  background-color: var(--Desaturated-dark-blue-key-background);
+}
+/* end calculator-buttons */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+/* responsive design */
+@media screen and (max-width: 650px) {
+  .calculator {
+    width: 90%;
+  }
+  .calculator-input input {
+    height: 70px;
+  }
+  .calculator-buttons {
+    border-radius: 8px;
+    background-color: var(
+      --Very-dark-desaturated-blue-toggle-background-keypad-background
+    );
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .calculator-buttons button {
+    font-size: 18px;
+    padding: 5px;
+  }
+  #reset,
+  #del {
+    font-size: 18px;
+  }
+}
+/* end responsive */
