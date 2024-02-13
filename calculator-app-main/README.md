@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/calculator-app-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - Calculator app
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
