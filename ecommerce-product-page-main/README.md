@@ -1,3 +1,5 @@
+<a href="https://fageer.github.io/Frontend-Mentor/ecommerce-product-page-main/"><strong>➥ Live Demo</strong></a>
+
 # Frontend Mentor - E-commerce product page
 
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
